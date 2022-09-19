@@ -61,7 +61,7 @@ class AnimatedArc {
       mouse.y >= this.yValue - 100
     ) {
       // increase the size of the circle
-      if (this.radius < 100) {
+      if (this.radius < 50) {
         this.radius = this.radius + 5;
       }
       this.drawCircle();
